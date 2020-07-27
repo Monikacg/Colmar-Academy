@@ -1,0 +1,63 @@
+body {
+  width: 100%;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  height: 64px;
+  background-color: white;
+}
+
+.CA-logo {
+  display: flex;
+  padding-left: 24px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.colmaracademy {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.Colmar {
+  font-weight: bold;
+  font-size: 24px;
+  display: inline-flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.Academy {
+  font-size: 24px;
+}
+
+nav {
+  padding: 0;
+  padding-right: 24px;
+}
+
+nav ul {
+  display: flex;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  text-decoration: none;
+  padding-left: 16px;
+}

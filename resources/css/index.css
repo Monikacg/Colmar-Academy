@@ -120,13 +120,16 @@ button {
 
 .h-box {
   display: flex;
-  border-style: none solid solid none;
-  border-color: lightgray;
 }
 
 .h-box img {
   width: 35%;
   padding: 16px;
+}
+
+#b {
+  border-style: none solid solid none;
+  border-color: lightgray;
 }
 
 #guest {
@@ -174,17 +177,6 @@ button {
   width: 100%;
 }
 
-.thesis-vid video {
-  width: 60%;
-  padding: 32px 24px;
-}
-
-.thesis-text {
-  width: 60%;
-  padding: 32px 24px;
-  padding-top: 0;
-}
-
 .thesis-vid {
   display: flex;
   flex-direction: column;
@@ -193,11 +185,38 @@ button {
 
 .thesis-vid video {
   width: 100%;
-  padding: 32px 24px;
+  padding: 0 24px 32px 24px;
 }
 
 .thesis-text {
   width: 100%;
   padding: 32px 24px;
   padding-top: 0;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: solid;
+  border-color: lightgray;
+  padding: 16px 24px;
+  margin-bottom: 24px;
+}
+
+.terms {
+  display: inline-block;
+}
+
+.terms ul {
+  display: flex;
+  margin: 0;
+}
+
+.terms li {
+  display: inline-block;
+}
+
+.terms a {
+  text-decoration: none;
+  padding-left: 16px;
 }

@@ -25,38 +25,33 @@ h1, h2, h3, h4, h5, h6 {
   padding-left: 24px;
 }
 
-.logo {
+.logo, .colmaracademy {
   display: flex;
   justify-content: center;
   align-content: center;
 }
 
-.colmaracademy {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-}
-
-.Colmar {
-  font-weight: bold;
+.Colmar, .Academy {
   font-size: 24px;
   display: inline-flex;
   justify-content: center;
   align-content: center;
 }
 
-.Academy {
-  font-size: 24px;
+.Colmar {
+  font-weight: bold;
+}
+
+nav, nav ul {
+  padding: 0;
 }
 
 nav {
-  padding: 0;
   padding-right: 24px;
 }
 
 nav ul {
   display: flex;
-  padding: 0;
 }
 
 nav li {
@@ -72,7 +67,6 @@ nav a {
   display: flex;
   padding-top: 64px;
   background-color: lightgray;
-  color: rgb(74, 74, 74);
 }
 
 .learn img {
@@ -84,7 +78,7 @@ nav a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 25%;
+  width: 40%;
   padding: 24px;
 }
 
@@ -97,41 +91,36 @@ button {
 }
 
 .slide {
-  /*display: flex;*/
-  width: 100%;
+  display: flex;
 }
 
 .practicing {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 60%;
 }
 
-.practicing img {
-  width: 60%;
+.practicing img, .practicing-text {
+  width: 100%;
   padding: 32px 24px;
   border-right-style: solid;
   border-color: lightgray;
 }
 
 .practicing-text {
-  width: 60%;
-  padding: 32px 24px;
   padding-top: 0;
-  border-right-style: solid;
-  border-bottom: solid;
-  border-color: lightgray;
 }
 
 .boxes {
   display: flex;
   flex-direction: column;
+  width: 40%;
+  margin-left: 48px;
 }
 
 .h-box {
   display: flex;
-  width: 40%;
-  border-style: solid solid solid none;
+  border-style: none solid solid none;
   border-color: lightgray;
 }
 
@@ -153,21 +142,23 @@ button {
 .start {
   background-color: lightgray;
   width: 100%;
+  padding-bottom: 16px;
 }
 
-#Start {
+#H1 {
   text-align: center;
+  padding: 32px;
 }
 
 .start-box {
   display: flex;
   flex-wrap: wrap;
-  margin: 16px 56px;
+  padding: 0 56px;
 }
 
 .v-box {
   background-color: white;
-  margin: 16px;
+  margin: 0 16px 32px 16px;
   width: 30%;
 }
 
@@ -177,4 +168,36 @@ button {
 
 .text {
   padding: 16px;
+}
+
+.thesis {
+  width: 100%;
+}
+
+.thesis-vid video {
+  width: 60%;
+  padding: 32px 24px;
+}
+
+.thesis-text {
+  width: 60%;
+  padding: 32px 24px;
+  padding-top: 0;
+}
+
+.thesis-vid {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.thesis-vid video {
+  width: 100%;
+  padding: 32px 24px;
+}
+
+.thesis-text {
+  width: 100%;
+  padding: 32px 24px;
+  padding-top: 0;
 }

@@ -223,11 +223,21 @@ button {
     display: block;
   }
 
+  #b {
+    border-style: none;
+  }
+
+  #guest {
+    background-color: white;
+  }
+
   .text h1, h2, h3 {
     padding: 0 16px;
   }
 }
 
+
+/* section */
 
 .start {
   background-color: lightgray;
@@ -259,6 +269,39 @@ button {
 .text {
   padding: 16px;
 }
+
+@media only screen and (max-width: 650px){
+  .start {
+    background-color: white;
+  }
+
+  #H1 {
+    margin-top: 16px;
+    padding: 16px;
+  }
+
+  .start-box {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .v-box img {
+    display: none;
+  }
+
+  .v-box {
+    background-color: lightgray;
+    margin: 0 16px 16px 16px;
+    width: auto;
+  }
+
+  .v-box .text h2 {
+    display: none;
+  }
+}
+
+
+/* section */
 
 .thesis {
   width: 100%;

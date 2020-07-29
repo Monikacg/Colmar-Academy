@@ -115,8 +115,27 @@ button {
   border-style: none;
   color: white;
   width: 100%;
-  padding: 8px 0;
+  padding: 8px;
 }
+
+@media only screen and (max-width: 650px){
+  .learn {
+    flex-direction: column;
+  }
+
+  .learn img {
+    width: 100%;
+    padding: 0;
+  }
+
+  .learn-text {
+    display: flex;
+    width: auto;
+  }
+}
+
+
+/* section */
 
 .slide {
   display: flex;

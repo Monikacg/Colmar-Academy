@@ -4,6 +4,13 @@ body {
   color: rgb(74, 74, 74);
 }
 
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+
+/* header section */
+
 header {
   display: flex;
   justify-content: space-between;
@@ -14,10 +21,6 @@ header {
   height: 64px;
   background-color: white;
   color: black;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  margin: 0;
 }
 
 .CA-logo {
@@ -63,9 +66,34 @@ nav a {
   padding-left: 16px;
 }
 
+header .mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 650px){
+  .colmaracademy {
+    display: none;
+  }
+
+  header .desktop {
+    display: none;
+  }
+
+  header .mobile {
+    display: block;
+  }
+
+  header .mobile li {
+    padding-left: 16px;
+  }
+}
+
+
+/* Learn something new section */
+
 .learn {
   display: flex;
-  padding-top: 64px;
+  padding-top: 64px; /* To offset for fixed header. */
   background-color: lightgray;
 }
 

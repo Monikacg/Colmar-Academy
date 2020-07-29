@@ -189,6 +189,46 @@ button {
   justify-content: center;
 }
 
+.h-box .mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 650px){
+  .slide {
+    flex-direction: column;
+  }
+
+  .practicing {
+    display: none;
+  }
+
+  .boxes {
+    width: auto;
+    margin-left: 0;
+  }
+
+  .h-box {
+    flex-direction: column;
+  }
+
+  .h-box img {
+    width: auto;
+  }
+
+  .h-box .desktop {
+    display: none;
+  }
+
+  .h-box .mobile {
+    display: block;
+  }
+
+  .text h1, h2, h3 {
+    padding: 0 16px;
+  }
+}
+
+
 .start {
   background-color: lightgray;
   width: 100%;

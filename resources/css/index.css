@@ -324,6 +324,28 @@ button {
   padding-top: 0;
 }
 
+@media only screen and (max-width: 650px){
+  .thesis-vid {
+    width: 100%;
+  }
+
+  .thesis-vid video {
+    width: 100%;
+    padding: 0;
+  }
+
+  .thesis-text {
+    display: none;
+  }
+
+  .thesis .boxes {
+    display: none;
+  }
+}
+
+
+/* Footer*/
+
 footer {
   display: flex;
   justify-content: space-between;
@@ -349,4 +371,17 @@ footer {
 .terms a {
   text-decoration: none;
   padding-left: 16px;
+}
+
+@media only screen and (max-width: 650px) {
+  footer {
+    border: none;
+    padding: 16px;
+    margin-bottom: 0;
+    margin-top: 24px;
+  }
+
+  .terms {
+    display: none;
+  }
 }
